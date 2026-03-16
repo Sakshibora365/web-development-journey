@@ -134,4 +134,19 @@ placed on page .
 
 10forms
 
+10forms
+⬜ <form>
+⬜ <input>
+
+Input types:
+⬜ text
+⬜ email
+⬜ password
+⬜ number
+⬜ radio
+⬜ checkbox
+⬜ file
+⬜ date
+
+
 
