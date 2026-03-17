@@ -132,6 +132,11 @@ placed on page .
 ⬜ rowspan
 ⬜ colspan
 
-10forms
+so in rowspan we can merge rows (horozontal
+and in colspan we can merge columns (vertical)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!here in index.html i just revised some basic concepts 
+
+10 forms it is used to collect data from user (here we made student registration form with  using html )
+covering all concepts of form 
 
 
