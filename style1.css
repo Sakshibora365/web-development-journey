@@ -4,12 +4,49 @@
     box-sizing:border-box;
 }
 #head{
-    display:inline-block;
+   display:inline-block;
     color:rgb(219, 219, 54);
     background-color:chocolate;
     text-transform:uppercase;
-    font-family:cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:20px;
-    font-weight:500px;
-    letter-spacing:12px;
+    font-weight:500;
+    letter-spacing:10px;
+}
+.css h2{
+    color:blue;
+}
+.css p{color:green;}
+.adjacent p{
+    color:orange;
+}
+.childselector >p{
+    color: purple;
+}
+button[type ="button"]{
+    color:red;
+    background-color:blanchedalmond;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size:large;  
+}
+button:hover{
+    background-color:coral;
+    color:white;
+}
+#head:active{
+    background-color:darkgreen;
+
+}
+input[type="checkbox"]:checked {
+  accent-color: green;
+}
+input[type="radio"]:checked {
+  accent-color: blue;
+}
+p:nth-of-type(2n){
+    color:blueviolet;
+}
+h1::first-letter{
+    background-color:black;
+    color:white;
 }

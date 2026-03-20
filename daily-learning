@@ -168,5 +168,87 @@ text-transform it is used to set the text in uppercase and lowercase and capital
 
                                     selectors in csss
                                     
+universal selector : it is used to select all the element of your webpage and apply css property on it
+*{
+    color: red;
+}
+element selector : it is used to select all the element of that type and apply css property on it
+p{
+    color: red;
+}
+class selector : it is used to select all the element of that class and apply css property on it
+.myclass{
+    color: red;
+}
+id selector : it is used to select the element of that id and apply css property on it
+#myid{
+    color: red;
+}
+grouping selector : it is used to select multiple element and apply css property on it
+p,h1{
+    color: red;
+}
+
+some more selctors 
+descendant selector : it is used to select the element which is descendant of another element
+div p{
+    color: red;
+      }  
+we can take on multiple level too like div p span {
+  color:red;
+}
+adjacent sibling selector : it is used to select the element which is adjacent sibling of another element
+h1 + p{
+    color: red;
+} whichever element is coming after h1 it will be selected and apply css property on it 
+
+child combinator selector : it is used  to select the element which is child of another 
+div>p {
+ color:red; 
+} it goes direct inside the div only first level of child will be selected 
+
+adjacent: element with same parents and immediate after element 
+child : element with same parents and direct child of element
+
+attribute selector: it is used to select the element which has specific attribute and apply css property on it
+input [attr="value"] {
+  property:value;
+}
+button[type="button"]{
+  color:brown;
+}
+
+when different type of selector doing property on same element then the priority of selector is
+so specifity calculate by
+id 
+clas
+elemnt 
+whose number is bigger 
+
+example : div.geet div .geet {
+  color:yellow;
+}                          0 2 1 ...id class element 
+when specifity same then cascading color so then use it 
 
 
+.........................................pseudo class and pseudo element 
+
+pseudo class: it used when we had to do some chnanges on state of element like hover 
+1 :hover     a:hover{color:yellow;}
+2 :active    when you click it will activate a:active{color:green;}
+3 :checked  
+4 :nth-of-type
+
+and we coverd psuedo elemnet too like
+1 ::first-letter
+2 :: ::first-line
+3 :: ::selection
+this psuedo element is used to select the part of element 
+
+id>class >psuedo class>element>psuedo element 
+this is used when we have to apply css property on same element by different selector then the priority of selector is id>class>psuedo class>element>psuedo element
+inline specifity is the greatest of all and it will override all the selector and apply css property on element
+
+but we try to avoid it 
+
+...............................................box model...
