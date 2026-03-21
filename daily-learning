@@ -251,4 +251,17 @@ inline specifity is the greatest of all and it will override all the selector an
 
 but we try to avoid it 
 
-...............................................box model...
+...............................................box model................................................................................
+
+every element in html is consisdered as a box and it is called box model
+it is used to set the space around the element and it is used to set the  width and height of element and it is used to set the border of element and it is used to set the padding of element 
+property of box model
+1 width and height : it is used to set the width and height of element
+2 padding : it is used to set the space between content and border of element       inside the element
+3 border : it is used to set the border of element
+4 margin : it is used to set the space around the element outside the element
+5 border-radius : it is used to set the border radius of element and it is used to make the element round
+6 box-sizing : it is used to set the box model of element and it is used to set the width and height of element including padding and border
+
+
+display:inline and block 
