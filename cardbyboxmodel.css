@@ -8,10 +8,11 @@
     width:100vw;
 background-color:#F2EAE0;
 font-size:larger;
-padding:10% 50% 20% 15%;
 display:position;
 text-align: center ;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position :relative;
+}
 
 #effect{
 
@@ -22,6 +23,10 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 0.1em solid #B4D3D9;
     border-radius:0.75rem;
+    position:absolute;
+    top:30%;
+    left:10%;
+    
 
 
 }
