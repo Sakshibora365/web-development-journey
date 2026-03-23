@@ -364,3 +364,64 @@ Works like relative at first, then becomes fixed when scrolling
 
 flexible box layout 
 1 dimensional layout method to arrange items in row or column.
+Flex Container
+display: flex
+display: inline-flex
+Flex Direction
+flex-direction: row
+flex-direction: row-reverse
+flex-direction: column
+flex-direction: column-reverse
+Justify Content (main axis alignment)
+justify-content: flex-start
+justify-content: flex-end
+justify-content: center
+justify-content: space-between
+justify-content: space-around
+justify-content: space-evenly
+Align Items (cross axis alignment)
+align-items: stretch
+align-items: flex-start
+align-items: flex-end
+align-items: center
+align-items: baseline
+Flex Wrap
+flex-wrap: nowrap
+flex-wrap: wrap
+flex-wrap: wrap-reverse
+Flex Flow (shortcut for direction + wrap)
+flex-flow: row wrap
+Gap
+gap
+row-gap
+column-gap
+Align Content (works when multiple rows exist)
+align-content: flex-start
+align-content: flex-end
+align-content: center
+align-content: space-between
+align-content: space-around
+align-content: space-evenly
+align-content: stretch
+
+Flex Item Properties
+
+Order
+order
+Flex Grow
+flex-grow
+Flex Shrink
+flex-shrink
+Flex Basis
+flex-basis
+Flex (shortcut property)
+flex
+Align Self
+align-self
+well justify content is for row and align item for column and self item is for only single elements beforre using  flex put that in conainer as 
+parents and then use rest of properties 
+and in transition it needs height and width which  is most important and after it we use transform and write in hover active just remember that point 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+GRID 
