@@ -425,3 +425,14 @@ and in transition it needs height and width which  is most important and after i
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 GRID 
+grid-template-columns :it is useful for setting lines in vertical
+grid-temmplate-rows: it is useful for setting lines in horizontal
+repeat() 
+gap
+
+
+also learnt abouut
+grid-template-area
+grid-columns
+grid-rows
+place-items it is useful for centering  in both way horiaontally and vertically. 
