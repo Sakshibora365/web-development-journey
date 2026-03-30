@@ -435,4 +435,31 @@ also learnt abouut
 grid-template-area
 grid-columns
 grid-rows
-place-items it is useful for centering  in both way horiaontally and vertically. 
+place-items it is useful for centering  in both way horiaontally and vertically.
+
+
+grid-template-areas 
+Before placing areas the grid must know:
+
+How many columns exist
+How many rows exist
+
+Why columns & rows are necessary
+
+Without them, the grid doesn't know the layout size.
+
+You must tell the grid:
+
+width structure → columns
+height structure → rows
+
+Then areas can be placed.
+
+
+example in real life:
+Real-life analogy
+
+Imagine building a house 🏠
+
+1️⃣ First create rooms layout (rows & columns)
+2️⃣ Then decide which room is kitchen, bedroom, hall (grid areas)
