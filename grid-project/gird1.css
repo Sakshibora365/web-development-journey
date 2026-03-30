@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:50rem;
+    background-color:black;
+    color:white;
+    display:grid;
+    gap:0.5rem;
+    grid-template-areas:"box1 box2";
+}
+.item{
+    height:5rem;
+    width:10rem;
+    background-color:brown;
+    grid-column-start:2;
+    grid-column-end:3;
+}
