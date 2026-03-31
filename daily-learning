@@ -463,3 +463,14 @@ Imagine building a house 🏠
 
 1️⃣ First create rooms layout (rows & columns)
 2️⃣ Then decide which room is kitchen, bedroom, hall (grid areas)
+
+
+css animation 
+keyframes 
+for animation creating 
+we need to remember first we create a template with its placed in the elemnt in which 
+you want to do animation and when this animtaion name we will place the name of tha animation we add on keyframes and then it 
+is applied on elemnt 
+media queries 
+
+z-index
