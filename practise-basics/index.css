@@ -66,7 +66,32 @@ h1::first-letter{
 
 
 @keyframes myanimation{
-    from{font-size:100px};
-    to{font-size:300px;
+    from{font-size:50px};
+    to{font-size:100px;
     }
 }
+
+
+.parent{
+    height:200px;
+    width:600px;
+    background-color: aquamarine;
+    margin-top:40px;
+    display:flex;
+}
+.circle1{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    background-color:brown;
+    text-align:center;
+    animation :move 2s ease-in-out infinite alternate;
+    align-self: center;
+    
+}
+@keyframes move{
+ 0%{ transform:translateX(0); }
+  100% { transform: translateX(500px); }
+}
+
+
