@@ -471,6 +471,41 @@ for animation creating
 we need to remember first we create a template with its placed in the elemnt in which 
 you want to do animation and when this animtaion name we will place the name of tha animation we add on keyframes and then it 
 is applied on elemnt 
+@keyframes animation name {}
+
+for any motion in any direction we use transform and we need to have parent elemnt and inside parent element we place our child element 
 media queries 
+help in creating website responsive
+like every diffrent device have their diffent height and width then we use media queries.
+
+@media(width: px){
+  div {
+
+  }
+} thats for exactly at that width only changes will occur
+so we use min-width and max-width 
+min-width:until that width and above of it this chnges will be here.
+max-width:at that max value and less than its value this chnges will happen for max-width
+we also write in range way
+
+@media(min-width:)and (max-width){
+
+}betwenn themm 
+
+@media(orientation:landscape){}
+
 
 z-index
+it decide the stack level of element 
+overlapping elements with a larger z-index cover those with a smaller one 
+if elemnt is at low stack then it will be in background but if elemnt at high stack 
+then it will be in front of screen means outward more.
+
+so when elements overlap each other and so we need to display which elements show upward and which
+one downward and whcih one above we use z-index.
+so whose z index value we write more it will be upward 
+by default all elemnt at same level and the value is 0
+z index value can be only used if there postion for it and also if stack and default position then there
+we cannot put z index value for this two so we need to display its position except this two.
+
+
