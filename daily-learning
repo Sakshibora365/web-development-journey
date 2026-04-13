@@ -516,3 +516,49 @@ I Learned about the grid system of bootstrap and how to use it for creating resp
 
 i studied all the topics of bootstrap which is required 
 and now we will starting with js
+
+13 april 2026 and 
+i revised what is js,use of console,what is variable,dataypes,operation on js,nan in js ,operator precedence,assigment operator,unary operator ,identifer,camelcase
+boolean in js,we can change the datatype of variable
+string in js
+concatenation 
+0 based indexing 
+console.log ()
+linking js file with html 
+template literals
+while using template literals dont forget to use back tick or else your code will not work as its not right syntax for it 
+(`sum is ${h+k}`) this is the syntax for it 
+operator in js 
+comparison is use to compare two values and triple equal i used to compare value and datatype both 
+
+conditional statements 
+if 
+else if
+nested if else 
+switch 
+they has fix value and you has to compare same with every other value and in between we use break in after every value as it stop other to get flow 
+
+truthy and falsy
+there value itself is not flasw or true but they are taken as true and false in boolean content 
+
+alert and prompt 
+alert as it display on page 
+alert('wrong ')
+console.error('this is an errow message ')
+
+prompt 
+it is dialouge which is asked from user 
+
+string methods
+trim 
+return space from both side and display a new variable 
+
+string are immutabel in js.
+
+str.touppercase()
+str.tolowercase()
+
+
+string method with argument 
+whcih pass the value
+stringname.method(argument);
