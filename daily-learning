@@ -562,3 +562,20 @@ str.tolowercase()
 string method with argument 
 whcih pass the value
 stringname.method(argument);
+slice 
+method chaining 
+replace 
+repeat 
+
+array 
+arrays are immutable but strings are mutable 
+array method 
+push 
+pop
+shift
+unshift
+indexof
+includes
+concat
+reverse
+slice
