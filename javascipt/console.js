@@ -29,3 +29,8 @@ if(names==='shrey');
     if(names==='shrey')
     {console.log("you are enough")};
 }
+
+let num=[1,2,3,4,5,6];
+num.shift();
+num;
+
