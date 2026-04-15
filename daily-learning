@@ -567,15 +567,4 @@ method chaining
 replace 
 repeat 
 
-array 
-arrays are immutable but strings are mutable 
-array method 
-push 
-pop
-shift
-unshift
-indexof
-includes
-concat
-reverse
-slice
+js
