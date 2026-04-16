@@ -567,4 +567,20 @@ method chaining
 replace 
 repeat 
 
-js
+array
+array are immutable 
+push
+pop
+unshift
+shift
+indexof
+includeof
+concat
+reverse
+slice 
+splice 
+sort 
+array reference 
+constant array
+nested array
+
