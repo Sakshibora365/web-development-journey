@@ -57,12 +57,10 @@ else {
 for(let i=1;i<=20;i=2+i){
     console.log(i);
 }
-for(let i=2;i<=10;i=i+2){
-    console.log(i);
-}
-for(let i=3;i<=10;i++){
-    console.log(i);
-}
-for(let i=3;i<=10;i++){
-    console.log(i);
+let hero=[['ironman','spiderman','thor'],['hulk','captain america','black widow']];
+for(leti=0;i<hero.length;i++){
+    console.log(hero[i], i);
+    for(let j=0;j<hero[i].length;j++){
+        console.log(`j=${j},${hero[i][j]}`);
+    }
 }
