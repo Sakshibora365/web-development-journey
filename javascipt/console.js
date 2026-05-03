@@ -64,3 +64,52 @@ for(leti=0;i<hero.length;i++){
         console.log(`j=${j},${hero[i][j]}`);
     }
 }
+
+//learn about object literal
+const info={
+    
+aman:{
+    name:"aman",
+    age:"23",
+},
+
+hema:{
+    name:"hema",
+    age:"32"
+},
+nuse:{
+    name:"hey",
+    age:"45",
+},
+
+
+};
+
+const object={
+    name:"hytt",
+    age:"54",
+};
+
+let user=prompt('please eenter number ');
+const randomNumber=Math.floor(Math.random()*10)+1;
+let guess=("guess the number between 1 to 10");
+while(true){
+    if(guess=="quit"){
+        console.log("you have quit the game");
+        break;
+    }
+    else if(guess==randomNumber){
+        console.log("congratulations! you guessed the number");
+        break;
+    }
+
+    else if(guess<randomNumber){
+        console.log("too low! try again");
+    }
+    else if(guess>randomNumber){
+        console.log("too high! try again");
+    }   
+    else {
+        console.log("invalid input! please enter a number between 1 to 10 or 'quit' to exit");
+    }
+};
