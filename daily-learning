@@ -599,3 +599,18 @@ array of object
 math object 
 how to generrate random number in js
 crate a guess game 
+learn function in js
+function define and function calling
+function with parameter and argument  
+we can call function into function 
+use of keyword return it stop in that function 
+but for printing it we need to save that into other variabel and then call it in console.log()
+and after return we cant write any code because it will not execute as return stop the function and return the value which is written after it
+
+scope 
+block scope 
+lexical scope 
+function expression 
+high order function
+high order function with return 
+methods 
