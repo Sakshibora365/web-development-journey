@@ -113,3 +113,21 @@ while(true){
         console.log("invalid input! please enter a number between 1 to 10 or 'quit' to exit");
     }
 };
+function greet(){
+    console.log("hola amigo");
+}
+greet();
+
+function dice(){
+    return Math.floor( Math.random()*6 + 1);
+}
+let diceRoll=dice();
+console.log(`you rolled a ${diceRoll}`);
+
+function sums(n){
+    let s=0;
+    for(let i=1;i<=n;i++){
+         s=i+s;}
+         return s;
+};
+    
