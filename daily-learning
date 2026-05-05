@@ -611,6 +611,18 @@ scope
 block scope 
 lexical scope 
 function expression 
-high order function
+high order functionwith parameter
 high order function with return 
 methods 
+
+this keyword  in js 
+window object 
+try and catch statment for error handling in js
+arrow function in js
+callback function
+arrow fucntion 
+with implict
+set timeout and set interval
+this with arrow function
+as arrow function see theirs parent scope
+use of arrow function is useful when we need to use inbuilt feature of window object here we can use this keyword to access it and it wi;; be usefull
