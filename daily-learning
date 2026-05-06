@@ -626,3 +626,19 @@ set timeout and set interval
 this with arrow function
 as arrow function see theirs parent scope
 use of arrow function is useful when we need to use inbuilt feature of window object here we can use this keyword to access it and it wi;; be usefull
+
+
+learn about array methods 
+for each 
+map
+filter
+reduce 
+every 
+some 
+default parameter 
+spread 
+spread in array literals 
+spread in object literals 
+reset 
+destrcturing 
+destructuring in object
