@@ -138,5 +138,3 @@ const square=(n)=> n*n;
 let square=sq(4);
 console.log (`the sqaure of 4 is ${square}`);
 
-let id=setInterval(()=>{console.log("hello world")},2000);
-setTimeout(()=>{clearInterval(id)},10000);
