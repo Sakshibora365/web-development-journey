@@ -642,3 +642,13 @@ spread in object literals
 reset 
 destrcturing 
 destructuring in object
+
+dom 
+dom is document object model it is used to access the html element and manipulate it
+dom is a tree structure in which every element is a node and it is used to access the element and manipulate it
+dom is used to access the element by id, class, tag name, query selector and query selector all
+dom is used to change the content of element by innerhtml and textcontent
+dom is used to change the style of element by style property
+dom is used to add and remove class by classlist property
+append and prepend is used to add element in dom
+remove is used to remove element from dom
