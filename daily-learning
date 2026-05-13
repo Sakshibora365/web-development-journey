@@ -652,3 +652,20 @@ dom is used to change the style of element by style property
 dom is used to add and remove class by classlist property
 append and prepend is used to add element in dom
 remove is used to remove element from dom
+
+dom event 
+inline 
+onclick 
+inmousesenter
+addeventlistner
+we can add multiple event listner on multipl element on page 
+keyboard event 
+form event 
+prevetndefault 
+extractig from data   
+value  
+this keyword in event
+event object
+change event
+input event
+event bubbling  
