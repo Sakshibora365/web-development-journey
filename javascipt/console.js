@@ -131,10 +131,14 @@ function sums(n){
          return s;
 };
     
-// write a arrow function that return the square of any n  number 
 
+//high order expression
 
-const square=(n)=> n*n;
-let square=sq(4);
-console.log (`the sqaure of 4 is ${square}`);
-
+function me(functions,n){
+    for(let i=0;i<n;i++)
+        functions();
+    }
+let save=function(){
+    console.log("i am saving the world");
+}
+me(save,5);
