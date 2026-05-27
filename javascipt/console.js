@@ -85,11 +85,6 @@ nuse:{
 
 };
 
-const object={
-    name:"hytt",
-    age:"54",
-};
-
 let user=prompt('please eenter number ');
 const randomNumber=Math.floor(Math.random()*10)+1;
 let guess=("guess the number between 1 to 10");
