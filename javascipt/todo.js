@@ -1,2 +1,3 @@
-let head=Document.getelementbyid("h1");
-console.dir(head);
+let div=document.querySelectorAll(".list ul");
+console.dir(div);
+ console.dir(div);
