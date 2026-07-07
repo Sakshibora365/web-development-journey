@@ -1,3 +1,1 @@
-let div=document.querySelectorAll(".list ul");
-console.dir(div);
- 
+let button=document.querySelectorAll("button");
