@@ -4,11 +4,13 @@ button.addEventListener("click",function(){
 });
 
 let text=document.querySelector('#tsk');
+let p=document.querySelectorAll('p');
 text.addEventListener("input",function(){
 console.log(text.value);
-
-
+p[0].innerText=text.value;
 ;});
+
+
 let btn=document.querySelector('#addtask');
 let ul=document.querySelector('ul');
 let input=document.querySelector('#task');
