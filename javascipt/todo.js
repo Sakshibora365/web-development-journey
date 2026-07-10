@@ -28,9 +28,10 @@ ul.appendChild(newlist);
 inputinbox.value="";
 
 });
-let delbtns=document.querySelectorAll(".delete");
-for (const deleteBtn of delbtns) 
-    deleteBtn.addEventListener("click",function(){
-     let par=this.parentElement;
-     par.remove();
-    });
+ul.addEventListener("click",function(event){
+    if(event.target.nodeName=="BUTTON"){
+        const listitem = event.target.parentElement;
+        listitem.remove();
+        console.log("deleted");
+    }
+});
