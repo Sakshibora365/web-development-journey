@@ -11,18 +11,26 @@ p[0].innerText=text.value;
 ;});
 
 
-let btn=document.querySelector('#addtask');
-let ul=document.querySelector('ul');
-let input=document.querySelector('#task');
+let addbutton=document.querySelector("#addtask");
+let inputinbox=document.querySelector("#task");
+let ul=document.querySelector("ul");
 
-btn.addEventListener("click",function(){
-let listitem =document.createElement('li');
-listitem.innerText=input.value;
-ul.appendChild(listitem);
-input.value="";
+addbutton.addEventListener("click",function(){
 
+let newlist=document.createElement("li");
+newlist.innerText=inputinbox.value;
+
+let deletebutton=document.createElement("button");
+deletebutton.innerText="Delete";
+
+newlist.appendChild(deletebutton);
+ul.appendChild(newlist);
+inputinbox.value="";
 
 });
-
-
-
+let delbtns=document.querySelectorAll(".delete");
+for (const deleteBtn of delbtns) 
+    deleteBtn.addEventListener("click",function(){
+     let par=this.parentElement;
+     par.remove();
+    });
