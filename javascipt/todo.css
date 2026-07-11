@@ -30,7 +30,9 @@ body{
     font-size:1.2rem;
 }
    
-
+li{
+    padding:0.1em;
+}
 #task{
     height:2rem;
     width:15rem;
@@ -39,11 +41,14 @@ body{
     box-shadow: 0 0 9px 0.6px rgb(237, 220, 220);
 }
 button{
-    height:2rem;
-    width:4rem;
-
+    height:1.2em;
+    width:5em;
     background-color: #314980;
     border-radius: 0.3rem;
     color:rgb(215, 250, 250);
     border:none;
     box-shadow: 0 0 9px 0.6px rgb(53, 32, 32);}
+
+    button.delete{
+        margin-left:2em;
+    }
