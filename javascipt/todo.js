@@ -35,4 +35,3 @@ ul.addEventListener("click",function(event){
         console.log("deleted");
     }
 });
-addEventListener
