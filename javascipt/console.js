@@ -137,3 +137,7 @@ let save=function(){
     console.log("i am saving the world");
 }
 me(save,5);
+
+function add(a,b){
+    return a+b;
+}   
