@@ -45,7 +45,12 @@ console.log("yes ther is lowercase");}
 let stringme= prompt('please enter your string');
 console.log(`original = ${stringme}`);
 console.log(`new = ${stringme.trim()}`);
+//loops 
 
+let  array=[1,2,3,4,5,6,7,8,9];
+for(arrays of array){
+    console.log(arrays);
+}
 let aes=[1,2,'er'];
 let i=2;
 if(aes.indexOf(i) != -1){
