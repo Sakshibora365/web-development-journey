@@ -146,3 +146,7 @@ me(save,5);
 function add(a,b){
     return a+b;
 }   
+
+for (let i = 0; i < 3; i++) {
+  console.log(`Count: ${i}`);
+}
