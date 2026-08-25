@@ -150,3 +150,14 @@ function add(a,b){
 for (let i = 0; i < 3; i++) {
   console.log(`Count: ${i}`);
 }
+// function for calling a function 2 time using high order 
+function calltwice(greet,n){
+    for(let i=1;i<=n;i++){
+        greet();
+}}
+let greet=function(){
+    console.log("hello world");
+}
+calltwice(greet,2);
+
+
