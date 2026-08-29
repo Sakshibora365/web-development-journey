@@ -159,5 +159,38 @@ let greet=function(){
     console.log("hello world");
 }
 calltwice(greet,2);
+//high order function 
 
 
+function met(me,n){
+    for(let i=1;i<=n;i++){
+        me();
+    }
+}
+let me=function(){
+    console.log("hellogirl");
+}
+
+met(me,6);
+
+//arrow function
+const hi= (a)=> a*a;
+console.log("implict function",hi(2));
+
+const hey=(a,b)=>{
+    return a+b;
+}
+console.log("explict function is",hey(9));
+//using settimout and  high order function together 
+function hy(call,n){
+    for(let i=1;i<=n;i++){
+        setTimeout(()=>{
+            call()
+        },i*2000);
+        
+    }
+}
+let call=function(){
+    console.log("happy birthday girl");
+}
+hy(call,5);
