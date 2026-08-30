@@ -194,3 +194,10 @@ let call=function(){
     console.log("happy birthday girl");
 }
 hy(call,5);
+//create a rest parameter function using reduce method
+function add(...numbers){
+    return numbers.reduce((acc,cur)=>acc+cur);
+}
+console.log(add(1,2,3,4,5,6,7,8,9));
+
+
