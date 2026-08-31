@@ -1,6 +1,7 @@
 let button = document.getElementById('color');
 button.addEventListener("click",function(){
     button.style.backgroundColor="green";
+    console.log("color changed into green")
 });
 
 let text=document.querySelector('#tsk');
@@ -35,4 +36,3 @@ ul.addEventListener("click",function(event){
         console.log("deleted");
     }
 });
-
